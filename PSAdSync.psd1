@@ -15,7 +15,7 @@
 	PrivateData       = @{
 		PSData = @{
 			Tags       = @('PSModule', 'ActiveDirectory')
-			ProjectUri = 'https://github.com/adbertram/PSADSync'
+			ProjectUri = 'https://github.com/AdamCzepiel78/PSADSync.git'
 		}
 	}
 }
