@@ -20,7 +20,6 @@ try {
 		Write-Host "Importing [$($m)] module into current session..."
 		Import-Module -Name $m
 	}
-
 } catch {
 	Write-Error -Message $_.Exception.Message
 	$host.SetShouldExit($LastExitCode)
